@@ -6,7 +6,7 @@
     "python3",
     "telegram",
     "bot",
-    "AloneX",
+    "ʙᴇwᴀꜰᴀ",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -33,8 +33,8 @@
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀʟᴏɴᴇ ダ ᴍᴜsɪᴄ",
+        "description": "ʙᴇwᴀꜰᴀ for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
+        "value": "ʙᴇwᴀꜰᴀ ✘ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
