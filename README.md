@@ -7,7 +7,7 @@
 
 <p align="center">
     <b>ᴠɪsɪᴛᴏʀs</b><br>
- -->    <img align="middle" src="https://profile-counter.glitch.me/TeamAloneOp/count.svg" />
+ -->    <img align="middle" src="https://graph.org/file/5fc8dd23ea909c8818e65.jpg" />
 </p>
 
 
@@ -23,7 +23,7 @@
   <img src="https://te.legra.ph/file/265e29bc52c7a32b67081.jpg">
 </p>
 
-**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝄟ॐ❥𝗔𝗟𝗢𝗡𝗘🍷𝗠𝗨𝗦𝗜𝗖🌷𝗕𝗢𝗧❥𝄟⃟🥀](https://t.me/QueenXRobot)**
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝄟ॐ❥𝗚𝗨𝗣𝗧𝗔🍷𝗠𝗨𝗦𝗜𝗖🌷𝗕𝗢𝗧❥𝄟⃟🥀](https://t.me/QueenXRobot)**
 
 
 
@@ -45,13 +45,13 @@
 <h2 align="center">
 
 🔴「 𝗜𝗙 𝗔𝗡𝗬 𝗘𝗥𝗥𝗢𝗥 𝗧𝗛𝗘𝗡 𝗦𝗘𝗡𝗗 𝗦𝗦 𝗧𝗢 𝗗𝗠 」🔴
-[![ALONE](https://te.legra.ph/file/fa42213a5129d4a26dd3d.jpg)](https://t.me/ALONE_WAS_BOT)
+[![ALONE](https://te.legra.ph/file/fa42213a5129d4a26dd3d.jpg)](https://t.me/II_ASHISH_GUPTA_IIl)
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/TeamAloneOp/AloneX/blob/master/sample.env)
+- Get your [Necessary Variables]()
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
