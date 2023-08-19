@@ -27,22 +27,22 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀʟᴏɴᴇ x ᴍᴜsɪᴄ")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6079943111").split())
+    map(int, getenv("OWNER_ID", "6277238293").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TeamAloneOp/AloneX")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/kiashish/RenukaMusic.git")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/AloneXBots")
+    "SUPPORT_CHANNEL", "https://t.me/MUSICBOT_OWNER")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/AlonesHeaven")
+    "SUPPORT_GROUP", "https://t.me/L2RFIGHTERS")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -68,7 +68,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TeamAloneOp/AloneX/fork")
+GITHUB_REPO = getenv("GITHUB_REPO", ")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -114,7 +114,7 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/75a6f636ab6704b6befd2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/5fc8dd23ea909c8818e65.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -123,7 +123,7 @@ PING_IMG_URL = getenv(
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -133,22 +133,22 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/df481726bdfafdbc7d85c.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
@@ -158,22 +158,22 @@ SOUNCLOUD_IMG_URL = getenv(
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/389f11da55c1c1a60a215.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/063bfeff0efdbd87fb103.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://graph.org/file/5fc8dd23ea909c8818e65.jpg",
 )
 
 
@@ -206,7 +206,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "AloneX/assets/Playlist.jpeg":
+    if PLAYLIST_IMG_URL != "ʙᴇwᴀꜰᴀX/assets/Playlist.jpeg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL url is wrong. Please ensure that it starts with https://"
