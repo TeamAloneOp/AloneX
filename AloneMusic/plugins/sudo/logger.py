@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AviaxMusic import app
-from AviaxMusic.misc import SUDOERS
-from AviaxMusic.utils.database import add_off, add_on
-from AviaxMusic.utils.decorators.language import language
+from AloneMusic import app
+from AloneMusic.misc import SUDOERS
+from AloneMusic.utils.database import add_off, add_on
+from AloneMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
