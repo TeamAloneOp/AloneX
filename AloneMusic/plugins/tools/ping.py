@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AviaxMusic import app
-from AviaxMusic.core.call import Aviax
-from AviaxMusic.utils import bot_sys_stats
-from AviaxMusic.utils.decorators.language import language
-from AviaxMusic.utils.inline import supp_markup
+from AloneMusic import app
+from AloneMusic.core.call import Alone
+from AloneMusic.utils import bot_sys_stats
+from AloneMusic.utils.decorators.language import language
+from AloneMusic.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         photo=PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await Aviax.ping()
+    pytgping = await Alone.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
