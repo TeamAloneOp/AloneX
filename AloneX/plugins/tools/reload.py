@@ -12,6 +12,10 @@ from AloneX.utils.database import get_assistant, get_authuser_names, get_cmode
 from AloneX.utils.decorators import ActualAdminCB, AdminActual, language
 from AloneX.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+STRING_SESSION = getenv("STRING_SESSION", "")
+
 
 rel = {}
 
