@@ -151,7 +151,7 @@ HELP_15 = """
 """
 
 HELP_16 = """
-<b><u>Privacy Command :</b></u>
+<b><u>ʟʏʀɪᴄs ᴄᴏᴍᴍᴀɴᴅs :</b></u>
 
-/Privacy : Display the privacy statement for Sarcastic Bot 
+/lyrics [sᴏɴɢ ɴᴀᴍᴇ] : sᴇᴀʀᴄʜ ʟʏʀɪᴄs ғᴏʀ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ sᴏɴɢ ᴀɴᴅ sᴇɴᴅ ᴛʜᴇ ʀᴇsᴜʟᴛs.
 """
