@@ -4,8 +4,12 @@ import time
 from pyrogram import Client, filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
+import re
 from os import getenv
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+
+from dotenv import load_dotenv
+from pyrogram import filters
 
 from AloneX import app
 from AloneX.core.call import Alone
@@ -17,7 +21,7 @@ from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-
+from dotenv import load_dotenv
 
 rel = {}
 
