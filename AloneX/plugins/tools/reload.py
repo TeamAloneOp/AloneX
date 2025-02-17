@@ -4,6 +4,7 @@ import time
 from pyrogram import Client, filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
+from os import getenv
 
 from AloneX import app
 from AloneX.core.call import Alone
