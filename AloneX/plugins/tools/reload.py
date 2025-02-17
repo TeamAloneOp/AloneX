@@ -1,7 +1,7 @@
 import asyncio
 import time
 
-from pyrogram import filters
+from pyrogram import Client, filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
