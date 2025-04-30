@@ -23,7 +23,7 @@
   <img src="https://te.legra.ph/file/265e29bc52c7a32b67081.jpg">
 </p>
 
-**𝘿𝙀𝙈𝙊 𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [˹ 𝞚𝙡𝞸𝞰𝞮 ✗ 𝙈𝙪𝙨𝙞𝙘™ [ 𝐍ᴏ 𝐀ᴅs ] 🥀­­­­­­­­­­­­­  ](https://t.me/AloneXMusicBot)**
+**𝘿𝙀𝙈𝙊 𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [˹ 𝞚𝙡𝞸𝞰𝞮 ✗ 𝙈𝙪𝙨𝙞𝙘™ [ 𝐍ᴏ 𝐀ᴅs ] 🥀­­­­­­­­­­­­­  ](https://t.me/KiDDOMUSICBOT)**
 
 
 
@@ -36,7 +36,7 @@
 <h3> 𝗛𝗘𝗥𝗢𝗞𝗨 𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗕𝗨𝗧𝗧𝗢𝗡 </h3>
 </h3>
 
-[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/TeamAloneOp/AloneX)
+[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/raya/ur_xray_al)
 
 <h2 align="center">
 
@@ -95,7 +95,7 @@
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/AloneXSupport"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/nvm_zx"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
