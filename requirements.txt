@@ -6,14 +6,14 @@ dnspython
 ffmpeg-python
 Flask==2.2.5
 gitpython
-gunicorn==22.0.0
+gunicorn==23.0.0
 hachoir
 heroku3==5.1.4
 httpx[http2]
 lyricsgenius
 motor
 ntgcalls
-pillow==11.2.1
+pillow==11.3.0
 psutil
 py-tgcalls==0.9.7
 pykeyboard
