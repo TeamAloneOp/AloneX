@@ -3,6 +3,7 @@
 # This file is part of AloneXMusic
 #ALONE-CODER
 
+import base64
 import json
 from functools import wraps
 from pathlib import Path
@@ -29,20 +30,37 @@ lang_codes = {
 
 class Language:
     """
-    Language class for managing multilingual support using JSON language files.
+    Language class for managing multilingual support using encrypted language files.
     """
 
     def __init__(self):
+        self.__key = b"ALONE-CODER"
         self.lang_codes = lang_codes
         self.lang_dir = Path("AloneX/locales")
         self.languages = self.load_files()
 
+    def _decrypt(self, data: bytes) -> str:
+        try:
+            decoded = base64.b64decode(data)
+            decrypted = bytes(
+                [decoded[i] ^ self.__key[i % len(self.__key)] for i in range(len(decoded))]
+            )
+            return decrypted.decode("utf-8")
+        except Exception as e:
+            raise ValueError(f"Failed to decrypt language file: {e}")
+
     def load_files(self):
         languages = {}
-        lang_files = {file.stem: file for file in self.lang_dir.glob("*.json")}
+        lang_files = {file.stem: file for file in self.lang_dir.glob("*.alone")}
         for lang_code, lang_file in lang_files.items():
-            with open(lang_file, "r", encoding="utf-8") as file:
-                languages[lang_code] = json.load(file)
+            try:
+                with open(lang_file, "rb") as file:
+                    encrypted_data = file.read()
+                decrypted_content = self._decrypt(encrypted_data)
+                languages[lang_code] = json.loads(decrypted_content)
+            except Exception as e:
+                logger.error(f"Error loading language file {lang_file}: {e}")
+                raise e
         logger.info(f"Loaded languages: {', '.join(languages.keys())}")
         return languages
 
@@ -51,7 +69,7 @@ class Language:
         return self.languages[lang_code]
 
     def get_languages(self) -> dict:
-        files = {f.stem for f in self.lang_dir.glob("*.json")}
+        files = {f.stem for f in self.lang_dir.glob("*.alone")}
         return {code: self.lang_codes[code] for code in sorted(files)}
 
     def language(self):
