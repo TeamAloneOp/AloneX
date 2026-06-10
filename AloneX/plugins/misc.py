@@ -16,6 +16,11 @@ from AloneX.helpers import buttons
 @app.on_message(filters.video_chat_ended, group=20)
 async def _watcher_vc(_, m: types.Message):
     await anon.stop(m.chat.id)
+    _lang = await lang.get_lang(m.chat.id)
+    if m.video_chat_started:
+        await m.reply_text(_lang["vc_started"])
+    elif m.video_chat_ended:
+        await m.reply_text(_lang["vc_ended"])
 
 
 async def auto_leave():

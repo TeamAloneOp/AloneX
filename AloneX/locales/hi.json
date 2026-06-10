@@ -155,5 +155,7 @@
     "audio": "🎵Audio",
     "video": "🎥Video",
     "enabled": "Enabled",
-    "disabled": "Disabled"
+    "disabled": "Disabled",
+    "vc_started": "वीडियो चैट शुरू हो गई",
+    "vc_ended": "वीडियो चैट बंद हो गई"
 }

@@ -1,4 +1,4 @@
-{ 
+{
     "add_me": "أضفني إلى مجموعتك",
     "admin_required": "يتطلب البوت إذن <b>دعوة المستخدمين عبر الرابط</b> للعمل.",
     "admin_cache_wait": "يمكنك فقط تحديث ذاكرة التخزين المؤقت للمسؤول مرة كل 10 دقائق.",
@@ -155,5 +155,7 @@
     "audio": "🎵Audio",
     "video": "🎥Video",
     "enabled": "Enabled",
-    "disabled": "Disabled"
+    "disabled": "Disabled",
+    "vc_started": "Video chat started",
+    "vc_ended": "Video chat off"
 }
