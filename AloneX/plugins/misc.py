@@ -8,7 +8,7 @@ import time
 
 from pyrogram import enums, errors, filters, types
 
-from AloneX import anon, app, config, db, lang, queue, tasks, userbot, yt
+from AloneX import anon, app, config, db, lang, logger, queue, tasks, userbot, yt
 from AloneX.helpers import buttons
 
 
@@ -16,6 +16,16 @@ from AloneX.helpers import buttons
 @app.on_message(filters.video_chat_ended, group=20)
 async def _watcher_vc(_, m: types.Message):
     await anon.stop(m.chat.id)
+
+
+@app.on_chat_join_request()
+async def approve_assistants(_, request: types.ChatJoinRequest):
+    try:
+        assistant_ids = [c.id for c in userbot.clients if hasattr(c, "id")]
+        if request.from_user.id in assistant_ids:
+            await request.approve()
+    except Exception as e:
+        logger.error(f"Error approving assistant join request: {e}")
 
 
 async def auto_leave():
