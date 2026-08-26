@@ -1,12 +1,12 @@
 # ALONE-CODER
-aiohttp~=3.14.1
-kurigram>=2.2.23
+aiohttp~=3.14.3
+kurigram>=2.2.25
 pillow~=12.3.0
 psutil~=7.2.2
 pymongo>=4.17.0
 pytgcrypto>=1.2.12
 py-tgcalls~=2.3.3
-py-yt-search~=0.7.2
-python-dotenv~=1.2.2
-yt-dlp[default]>=2026.7.4
+py-yt-search~=0.7.5
+python-dotenv~=1.2.3
+yt-dlp[default]>=2026.8.19
 static-ffmpeg>=3.0
